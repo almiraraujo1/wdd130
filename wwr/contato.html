@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco | Água Brava Rafting</title>
+    <meta name="description" content="Viva aventuras inesquecíveis com rafting seguro, paisagens incríveis e muita emoção para toda a família.">
+    <meta name="author" content="Francisco Almir de Araujo Neto">
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/agua_brava.png" alt="Logotipo Água Brava">
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+    <section class="company-info">
+
+        <h1>Água Brava Rafting</h1>
+
+        <p>Rua Principal, 123</p>
+        <p>Foz do Iguaçu - Paraná</p>
+        <p>(45) 99999-9999</p>
+        <p>contato@aguabrava.com</p>
+    </section>
+
+    <section class="contact-grid">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb="
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="contact-form">
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Finalidade da mensagem</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general" checked>
+                        Consulta Geral
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Pergunta sobre Reserva
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Sugestão de Site
+                    </label>
+                </fieldset>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="6"></textarea>
+
+                <label class="newsletter">
+                    <input type="checkbox" name="newsletter">
+                    Quero receber a newsletter mensal
+                </label>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="employees">
+        <h2>Estamos Aqui para Servi-lo</h2>
+
+        <div class="employee-cards">
+            <figure>
+                <img src="imagens/funcionario1.jpg" alt="Carlos Souza">
+
+                <figcaption>
+                    Carlos Souza
+                    <br>
+                    Guia de Rafting
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/funcionaria2.jpg" alt="Mariana Lima">
+
+                <figcaption>
+                    Mariana Lima
+                    <br>
+                    Coordenadora de Reservas
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/funcionaria3.jpg" alt="Fernanda Alves">
+
+                <figcaption>
+                    Fernanda Alves
+                    <br>
+                    Atendimento ao Cliente
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2026 Água Brava Rafting | Almir Araujo</p>
+        <nav class="redes-sociais socialmedia">
+            <a href="https://facebook.com">
+                <img src="imagens/facebook.svg" alt="Ícone do Facebook">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="imagens/linkedin.svg" alt="Ícone do LinkedIn">
+            </a>
+            <a href="https://instagram.com">
+                <img src="imagens/instagram.svg" alt="Ícone do Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

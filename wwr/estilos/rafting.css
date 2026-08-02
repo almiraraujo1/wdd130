@@ -197,5 +197,137 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 25rem;
+    padding: 1rem 30rem;
+}
+
+.company-info {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.company-info h1 {
+    position: static;
+    font-size: 2.5rem;
+    color: var(--cor-primaria);
+    background: none;
+    opacity: 1;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.company-info h2 {
+    margin-bottom: 15px;
+}
+
+.company-info p {
+    margin: 6px 0;
+}
+
+/* GRID */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.map iframe {
+    width: 100%;
+    height: 450px;
+    border: 2px solid #264653;
+    border-radius: 8px;
+}
+
+.contact-form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .15);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+fieldset label {
+    display: block;
+    margin: 8px 0;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background: #055A05;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .3s;
+}
+
+button:hover {
+    background: #264653;
+}
+
+.employees {
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.employee-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.employee-cards figure {
+    width: 250px;
+}
+
+.employee-cards img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.employee-cards figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .employee-cards {
+        flex-direction: column;
+        align-items: center;
+    }
 }
